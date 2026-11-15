@@ -1,0 +1,13 @@
+# PyTorch is installed separately from its CPU-only index (much smaller download):
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.5
+
+transformers>=4.46   # loads the pretrained detector models from Hugging Face
+sentencepiece        # tokenizer used by DeBERTa-based models
+protobuf
+pandas               # tables of results
+scikit-learn         # evaluation metrics (recall, false-positive rate, AUROC)
+tabulate             # prints results as a markdown table
+datasets             # downloads public datasets from Hugging Face
+fastapi              # the web API and demo page
+uvicorn              # runs the web server

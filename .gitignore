@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded and trained models (too big for git; published to Hugging Face instead)
+.hf-cache/
+models/
+*.onnx
+*.egg-info/
+
+# Built data that includes OPUS-100 sentences (mixed licenses). Recreate with data/build_dataset.py
+data/processed/*.jsonl
+results/comparison_test_predictions.csv
+
+# Tool settings
+.claude/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,11 @@
+detector,lang,attacks_caught,recall,false_alarms,false_alarm_rate,f1,auroc
+protectai-v2,en,25/30,0.833,6/30,0.2,0.82,0.884
+protectai-v2,hi,30/30,1.0,27/30,0.9,0.69,0.684
+protectai-v2,hinglish,27/30,0.9,12/30,0.4,0.783,0.791
+protectai-v2,mr,29/30,0.967,26/30,0.867,0.682,0.784
+protectai-v2,all,111/120,0.925,71/120,0.592,0.735,0.775
+deepset,en,30/30,1.0,21/30,0.7,0.741,0.958
+deepset,hi,30/30,1.0,30/30,1.0,0.667,0.764
+deepset,hinglish,30/30,1.0,30/30,1.0,0.667,0.856
+deepset,mr,30/30,1.0,30/30,1.0,0.667,0.609
+deepset,all,120/120,1.0,111/120,0.925,0.684,0.79
